@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Change to correct directory
+        run: cd path/to/your/sub-directory
+
       - name: Install dependencies
         run: npm install
 
